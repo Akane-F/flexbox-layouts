@@ -128,7 +128,6 @@ footer {
     top: 130px;
     padding: 20px;
     background-color: peachpuff;
-    text-align: center;
 }
 
 nav a:link {
@@ -145,12 +144,6 @@ nav a:hover {
 
 nav a:active {
     color: darkblue;
-}
-
-footer span {
-    display: block;
-    border: solid 1px plum;
-    margin: 20px;
 }
 
 #created {
