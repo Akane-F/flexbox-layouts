@@ -70,10 +70,14 @@ h1 {
 }
 
 #fuu1,
-#fuu2,
+#fuu2 {
+    max-height: 300px;
+    margin: 20px;
+}
+
 #fuu3,
 #fuu4 {
-    max-height: 300px;
+    max-height: 200px;
     margin: 20px;
 }
 
@@ -168,4 +172,12 @@ nav a:active {
     clear: both;
     margin: 20px;
     padding: 50px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }
