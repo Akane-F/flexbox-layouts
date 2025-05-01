@@ -71,8 +71,7 @@ h1 {
 
 #fuu1,
 #fuu2 {
-    max-height: 300px;
-    margin: 20px;
+    max-width: 40vw;
 }
 
 #fuu3,
@@ -180,4 +179,15 @@ nav a:active {
 
 .align-right {
     text-align: right;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
