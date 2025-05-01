@@ -6,6 +6,12 @@
     list-style: none;
 }
 
+body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
 header {
     position: fixed;
     display: flex;
@@ -54,9 +60,7 @@ header nav a.currentpage {
 }
 
 main {
-    position: relative;
-    top: 130px;
-    height: 1000px;
+    padding-top: 130px;
     background-color: lavenderblush;
 }
 
@@ -116,8 +120,8 @@ aside li {
 }
 
 footer {
-    position: relative;
-    top: 130px;
+    display: flex;
+    justify-content: center;
     padding: 20px;
     background-color: peachpuff;
 }
