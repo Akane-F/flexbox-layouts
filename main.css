@@ -62,6 +62,7 @@ header nav a.currentpage {
 main {
     padding-top: 130px;
     background-color: lavenderblush;
+    min-height: calc(100vh - 64px);
 }
 
 h1 {
